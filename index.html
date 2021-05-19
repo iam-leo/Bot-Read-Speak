@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk to me!</title>
+    
+    <!-- ICON PAGE -->
+    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/google/noto-emoji-smileys/512/10103-robot-face-icon.png" type="image/x-icon">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+    <!-- NORMALIZE -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- CUSTOM -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <img src="img/robot.svg" alt="robot">
+
+        <div class="form-leer">
+            <div class="cont_leer-texto">
+                <textarea  id="texto" cols="30" rows="10" placeholder="Ingresa un texto aquí"></textarea>
+                <button id="leer_texto">Leer el texto</button>
+                
+            </div>
+        </div>
+
+        <div class="cont_grabar-voz">
+            <div class="botones">
+            <button id="grabar_voz" title="Grabar audio"> <i class="fas fa-microphone"></i> </button>
+            <button id="info" title="Info"><i class="fas fa-info-circle"></i></button>
+            </div>
+            <p class="texto_grabar"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by Leo Ss. 2021 &copy;</p>
+    </footer>
+
+    <!-- FONTAWESOME -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
+
+    <!-- SWEETALERT -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!-- APP -->
+    <script src="js/app.js"></script>
+</body>
+</html>
