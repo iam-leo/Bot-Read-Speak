@@ -74,7 +74,7 @@ const respuestasBot = [
     'Mucho gusto, yo aún no tengo nombre',
     'Soy de Argentina',
     'Tengo muy poquito tiempo de vida, estoy creciendo',
-    'Leo es mi creador, siguelo en Twitter arroba Leo, guion bajo, ese, ese, guion bajo'
+    'Leo es mi creador. Cualquier sugerencia que tengas, contactalo vía email leo punto ve corta eme punto se ve larga a, arroba gmail punto com'
 ];
 
 const contestar = (audio)=>{
